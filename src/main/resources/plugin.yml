@@ -1,0 +1,18 @@
+name: MointainIP-AiO
+version: '${project.version}'
+main: de.saturnmc.saturn.minigameserver.mointainipaio.Main
+api-version: 1.19
+#depend: [ ProtocolLib ]
+authors: [ Saturn753 ]
+description: A all in one Plugin for your own minigame Server
+website: https://github.com/Saturn56
+commands:
+  group:
+    description: Test
+    usage: /group <set/get> <Player> <Gruppe>
+  joke:
+    description: a jump scare
+    usage: /joke <Player>
+  AntiDrop:
+    description: add a Item to this by the custom model data
+    usage: /AntiDrop <add/remove> <custom model data>
